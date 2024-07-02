@@ -1,40 +1,93 @@
-.All{
+.All {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 100vh;
+    background-color: rgb(159, 192, 255);
 }
-.Tabuleiro{
-    background-color: red;
+
+.jogada {
+    font-size: 100px;
+
 }
-.CentroSuperior{
-    border: solid black;
-    border-top: none;
-    border-bottom: none;
+.Placar{
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
 }
-.CentroMeio{
-    border: solid black;
+
+.Botoes {
+    position: fixed;
+    left: 50%;
+    bottom: 100%;
+    transform: translate(-50%, 0);
 }
-.CentroInferior{
-    border: solid black;
-    border-bottom: none;
-    border-top: none;
+
+.title-jogadores {
+    align-self: center;
+    justify-self: center;
 }
-.Opcao{
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.Tabuleiro {
+    display: grid;
+    grid-template-columns: repeat(3, 203px);
+    grid-template-rows: repeat(3, 200px);
 }
-.PrimeiroMeio{
-    border: solid black;
-    border-left: none;
-    border-right: none;
+
+.box {
+    width: 203px;
+    height: 200px;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-align: center;
 }
-.TerceiroMeio{
-    border: solid black;
-    border-right: none;
-    border-left: none;
+
+
+.A1 {
+    border-bottom: 8px solid black;
+    border-right: 8px solid black;
+}
+
+.A2 {
+    border-bottom: 8px solid black;
+    border-right: 8px solid black;
+    border-left: 8px solid black;
+}
+
+.A3 {
+    border-bottom: 8px solid black;
+    border-left: 8px solid black;
+}
+
+.B1 {
+    border-top: 8px solid black;
+    border-bottom: 8px solid black;
+    border-right: 8px solid black;
+}
+
+.B2 {
+    border: 8px solid black;
+}
+
+.B3 {
+    border-top: 8px solid black;
+    border-bottom: 8px solid black;
+    border-left: 8px solid black;
+}
+
+.C1 {
+    border-top: 8px solid black;
+    border-right: 8px solid black;
+}
+
+.C2 {
+    border-top: 8px solid black;
+    border-right: 8px solid black;
+    border-left: 8px solid black;
+}
+
+.C3 {
+    border-top: 8px solid black;
+    border-left: 8px solid black;
 }
