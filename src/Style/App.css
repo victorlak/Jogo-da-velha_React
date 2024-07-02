@@ -1,0 +1,40 @@
+.All{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.Tabuleiro{
+    background-color: red;
+}
+.CentroSuperior{
+    border: solid black;
+    border-top: none;
+    border-bottom: none;
+}
+.CentroMeio{
+    border: solid black;
+}
+.CentroInferior{
+    border: solid black;
+    border-bottom: none;
+    border-top: none;
+}
+.Opcao{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.PrimeiroMeio{
+    border: solid black;
+    border-left: none;
+    border-right: none;
+}
+.TerceiroMeio{
+    border: solid black;
+    border-right: none;
+    border-left: none;
+}
