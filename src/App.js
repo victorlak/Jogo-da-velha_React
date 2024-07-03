@@ -52,7 +52,7 @@ function App() {
   return (
     <div className="All">
         <Row className='Tabuleiro'>
-          <Col style={{backgroundColor:'red'}} onClick={()=>{if(opcao1 === ''){
+          <Col  onClick={()=>{if(opcao1 === ''){
             if(jogador === 'x'){
               setOpcao1('x')
               setJogador('o')
@@ -62,7 +62,7 @@ function App() {
             }
           }
           }} md={4}className='Opcao'><h1>{opcao1}</h1></Col>
-          <Col style={{backgroundColor:'red'}} onClick={()=>{if(opcao2 === ''){
+          <Col  onClick={()=>{if(opcao2 === ''){
             if(jogador === 'x'){
               setOpcao2('x')
               setJogador('o')
@@ -72,7 +72,7 @@ function App() {
             }
           }
           }}md={4}className='Opcao CentroSuperior'><h1>{opcao2}</h1></Col>
-          <Col style={{backgroundColor:'red'}} onClick={()=>{if(opcao3 == ''){
+          <Col  onClick={()=>{if(opcao3 == ''){
             if(jogador === 'x'){
               setOpcao3('x')
               setJogador('o')
@@ -82,7 +82,7 @@ function App() {
             }
           }}}md={4}className='Opcao'><h1>{opcao3}</h1></Col>
 
-          <Col style={{backgroundColor:'red'}} onClick={()=>{if(opcao4 == ''){
+          <Col  onClick={()=>{if(opcao4 == ''){
             if(jogador === 'x'){
               setOpcao4('x')
               setJogador('o')

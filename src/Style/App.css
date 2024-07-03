@@ -6,7 +6,7 @@
     height: 100vh;
 }
 .Tabuleiro{
-    background-color: red;
+    
 }
 .CentroSuperior{
     border: solid black;
@@ -23,7 +23,7 @@
 }
 .Opcao{
     width: 50px;
-    height: 50px;
+    height: 50px ;
     display: flex;
     justify-content: center;
     align-items: center;
