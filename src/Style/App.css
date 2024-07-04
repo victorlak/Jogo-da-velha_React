@@ -6,7 +6,7 @@
     height: 100vh;
 }
 .Tabuleiro{
-    
+    width: 252px;
 }
 .CentroSuperior{
     border: solid black;
